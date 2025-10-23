@@ -1,0 +1,13 @@
+
+*.pyc
+_pycache_/
+venv/
+env/
+
+
+wa-session/
+
+
+*.log
+.DS_Store
+Thumbs.db

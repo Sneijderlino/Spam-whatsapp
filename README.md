@@ -5,12 +5,7 @@
 <h1 align="center">💣 Spam-whatsapp</h1>
 
 <p align="center">
-  <a href="https://github.com/Sneijderlino/Spam-whatsapp/stargazers">
-    <img src="https://img.shields.io/github/stars/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=FFD700&logo=github" alt="Stars"/>
-  </a>
-  <a href="https://github.com/Sneijderlino/Spam-whatsapp/network/members">
-    <img src="https://img.shields.io/github/forks/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=00BFFF&logo=git" alt="Forks"/>
-  </a>
+
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=2ecc71" alt="License"/>
   </a>

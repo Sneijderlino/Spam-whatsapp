@@ -1,35 +1,75 @@
 <p align="center">
-  <img src="/img/spamwa.png" alt="" width="900"/>
+  <img src="/img/spamwa.png" alt="Header Image" width="900"/>
 </p>
 
+<h1 align="center">💣 Spam-whatsapp</h1>
 
-# 💣 Spam-whatsapp
 <p align="center">
-  <img src="https://img.shields.io/github/languages/top/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=blueviolet" alt="Top Language">
-  <img src="https://img.shields.io/github/license/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=brightgreen" alt="License">
-  <img src="https://img.shields.io/github/last-commit/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=informational" alt="Last Commit">
+  <a href="https://github.com/Sneijderlino/Spam-whatsapp/stargazers">
+    <img src="https://img.shields.io/github/stars/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=FFD700&logo=github" alt="Stars"/>
+  </a>
+  <a href="https://github.com/Sneijderlino/Spam-whatsapp/network/members">
+    <img src="https://img.shields.io/github/forks/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=00BFFF&logo=git" alt="Forks"/>
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/Sneijderlino/Spam-whatsapp?style=for-the-badge&color=2ecc71" alt="License"/>
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8+-3776AB.svg?style=for-the-badge&logo=python" alt="Python"/>
+  </a>
+  <img src="https://img.shields.io/badge/OS-Windows%20%7C%20Linux%20%7C%20macOS-informational?style=for-the-badge" alt="OS Support"/>
+  <img src="https://img.shields.io/badge/Status-Active%20Development-success?style=for-the-badge" alt="Status"/>
 </p>
 
-## ⚠ Peringatan Penting
-Proyek ini dibuat untuk tujuan *pembelajaran, eksperimen, dan otomatisasi pribadi. Penggunaan yang melanggar ketentuan layanan WhatsApp, menyebabkan gangguan, atau merugikan pihak lain adalah **tanggung jawab pengguna sepenuhnya*. Kami tidak bertanggung jawab atas penyalahgunaan skrip ini.
+---
 
-## 📝 Deskripsi Proyek
-*Spam-whatsapp* adalah skrip Python yang memanfaatkan pustaka *Selenium* untuk mengotomatisasi pengiriman pesan berulang ke kontak WhatsApp melalui *WhatsApp Web. Skrip ini menyimpan sesi login Chrome Anda, sehingga Anda hanya perlu *scan QR code sekali.
+## 🛑 Disclaimer Penting (Wajib Dibaca!)
+
+Proyek ini bertujuan *HANYA untuk tujuan edukasi, riset keamanan, dan pembelajaran otomasi.*  
+⚠ *Segala bentuk penyalahgunaan adalah tanggung jawab penuh pengguna.*  
+Penulis *tidak bertanggung jawab atas kerugian, pelanggaran hukum, atau pemblokiran akun WhatsApp* yang disebabkan oleh penggunaan skrip ini.
+
+---
+
+## 🧠 Tentang Proyek
+
+*WA-Spammer-Selenium* adalah automation script berbasis *Python* dan *Selenium* untuk mengirim pesan otomatis melalui WhatsApp Web.  
+Skrip ini dirancang untuk *menguji kemampuan otomasi browser* dan *simulasi sistem pengiriman pesan massal* menggunakan deep link WhatsApp.
+
+---
+
+## 🚀 Mengapa Proyek Ini Menarik?
+
+💡 *WA-Spammer-Selenium* bukan hanya untuk spam. Ini contoh nyata bagaimana automation tools bekerja:  
+
+- 🔁 *Selenium Session Handling* → belajar cara menyimpan & melanjutkan sesi login WhatsApp Web.  
+- ⚙ *WebDriver Management* → tidak perlu repot mengunduh chromedriver secara manual.  
+- 🔗 *Dynamic URL Invocation* → membuka chat lewat link wa.me/send langsung ke target.
+
+---
 
 ## ✨ Fitur Utama
-* *Otomatisasi Sesi:* Menyimpan sesi login WhatsApp Web di folder lokal (wa-session).
-* *Instalasi Driver Otomatis:* Menggunakan webdriver-manager untuk otomatis menginstal chromedriver yang sesuai.
-* *Targeting Chat:* Otomatis membuka chat target.
-* *Konfigurasi Fleksibel:* Pengguna dapat mengatur *NOMOR, **PESAN, **JUMLAH_PESAN, dan **JEDA* antar pesan di src/wa_sender.py.
 
-## ⚙ Persyaratan
-1.  *Python 3.x*
-2.  *Google Chrome* (Wajib terinstal)
-3.  Instal dependensi: pip install -r requirements.txt
+| Fitur | Deskripsi |
+|:--|:--|
+| ✅ *Sesi Persisten* | Login cukup sekali, QR disimpan di folder wa-session/ |
+| ⚙ *Driver Otomatis* | webdriver-manager otomatis menyesuaikan versi Chrome |
+| ⏱ *Jeda Terkontrol* | Atur jeda antar pesan agar mirip perilaku manusia |
+| 🔒 *Konfigurasi Aman* | Semua pengaturan terpisah di SpamWA.py atau .env |
+| 💬 *Pesan Kustom* | Dapat mengatur isi pesan dan jumlah pengiriman |
 
-## 🚀 Cara Penggunaan
-### 1. Kloning Repositori
+---
+
+## 🧩 Persyaratan Sistem
+
+| Komponen | Keterangan |
+|:--|:--|
+| *Python* | Versi *3.8 atau lebih baru* |
+| *Google Chrome* | Harus sudah terinstal & up to date |
+| *Paket Python* | selenium, webdriver-manager |
+
+### 📦 Install Dependencies
+
 ```bash
-git clone 
-cd Spam-whatsapp
-```# Spam-whatsapp
+pip install -r requirements.txt
+``

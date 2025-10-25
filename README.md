@@ -1,6 +1,6 @@
 # Spam-whatsapp
 
-Spam-whatsapp adalah skrip Python sederhana untuk mengirim pesan berulang ke satu kontak WhatsApp Web menggunakan Selenium.
+Spam-whatsapp adalah skrip Python untuk mengirim pesan berulang ke satu kontak WhatsApp Web menggunakan Selenium.
 
 Disclaimer singkat: proyek ini menggunakan otomatisasi WhatsApp Web. Penggunaan untuk spam, pelecehan, atau aktivitas ilegal tidak didukung. Gunakan hanya untuk keperluan testing atau komunikasi yang sah sesuai aturan WhatsApp.
 

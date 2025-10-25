@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spam-whatsapp"
+version = "0.1.0"
+description = "Simple WhatsApp Web messaging helper using Selenium"
+authors = [ { name = "Sneijderlino" } ]
+readme = "README.md"
+requires-python = ">=3.8"

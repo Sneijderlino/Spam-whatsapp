@@ -1,3 +1,10 @@
+# Contributor Covenant Code of Conduct
+
+Our Pledge
+
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone...
+
+For full text, see: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
 # 🏛 Kode Etik (Code of Conduct)
 
 Kami berkomitmen untuk membuat pengalaman yang ramah dan positif bagi semua orang yang terlibat dalam proyek *Spam-whatsapp* ini, tanpa memandang tingkat pengalaman, gender, identitas gender, orientasi seksual, disabilitas, penampilan pribadi, ras, etnis, atau agama.

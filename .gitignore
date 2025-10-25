@@ -1,3 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+.log
+
+# Session data for WhatsApp user profile (should not be committed)
+wa-session/
+
+# Chrome driver binary (if placed in repo)
+chromedriver*
 
 *.pyc
 _pycache_/

@@ -1,3 +1,20 @@
+<!-- Terima kasih atas kontribusinya! -->
+
+### Ringkasan perubahan
+- Jelaskan perubahan singkat dan tujuan.
+
+### Jenis Perubahan
+- [ ] Bug fix (non-breaking change)
+- [ ] Fitur baru (non-breaking change)
+- [ ] Breaking change
+- [ ] Dokumentasi
+
+### Cara menguji
+Jelaskan langkah singkat untuk mereproduksi atau menguji perubahan.
+
+### Checklist
+- [ ] Saya sudah menjalankan lint (flake8) dan tidak ada error
+- [ ] Saya menambahkan/ memperbarui dokumentasi bila perlu
 
 ```markdown
 ---

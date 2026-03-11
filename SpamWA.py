@@ -13,7 +13,7 @@ import os
 #================== CONFIGURATION ==================
 CHROMEDRIVER_PATH = None 
 
-NOMOR = "6282292964110"
+NOMOR = "62383872084"
 PESAN = "Halo Bro, Saya Sneijderlino"
 JUMLAH_PESAN = 10
 JEDA_SELANJUT = 1.2
